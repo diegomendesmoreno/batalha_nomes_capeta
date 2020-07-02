@@ -1,10 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171499266-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-171499266-1');
+    </script>
+
     <meta charset="UTF-8">
     <title>Batalha de nomes do capeta</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Chivo:ital@1&family=Pangolin&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,12 +25,15 @@
     <div class="container">
         <h2 id="capeta">Mochila de criança</h2>
         <input type="button" value="Batalhar" onclick="nomeCapeta()">
-        <!-- <a href="nomeCapeta()">Batalhar</a> -->
     </div>
 
     <div class="footer">
-        <a href="https://wiki.gugacast.com/Epis%C3%B3dios_com_batalhas_de_Nomes_do_Capeta" target="_blank"><p>Episódios com batalhas de Nomes do Capeta</p></a>
-        <a href="https://wiki.gugacast.com/Nomes_do_Capeta" target="_blank"><p>Lista usada de nomes do Capeta</p></a>
+        <a href="https://wiki.gugacast.com/Epis%C3%B3dios_com_batalhas_de_Nomes_do_Capeta"
+        target="_blank" style="text-decoration:none">
+        <p>Episódios com batalhas de Nomes do Capeta</p></a>
+        <a href="https://wiki.gugacast.com/Nomes_do_Capeta"
+        target="_blank" style="text-decoration:none">
+        <p>Lista usada de nomes do Capeta</p></a>
     </div>
 
     <script src="script.js"></script>
