@@ -9,7 +9,9 @@ function sorteiaNomeArray(array){
 
 function nomeCapeta() {
     // Sorteia um nome na Array
-    var nomeDoCapeta = sorteiaNomeArray(listaNomesCapeta);
+    var nomeDoCapeta = sorteiaNomeArray(listaNomesCapeta)
+	
+	varo whateverERRODEPROPOSITO
 
     // Atualiza o novo nome sorteado
     document.getElementById("capeta").innerHTML = nomeDoCapeta;
